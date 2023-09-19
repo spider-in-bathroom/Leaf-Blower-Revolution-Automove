@@ -1,4 +1,6 @@
-# Leaf-Blower-Revolution-Automove\
+# Leaf-Blower-Revolution-Auto move
+an auto blow leaf for the game Leaf Blower Revolution
+
 download Python3 -
 download VScode studio and run autogame.py -
 Make sure the game is running before running the script -
