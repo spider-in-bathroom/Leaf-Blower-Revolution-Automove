@@ -3,9 +3,14 @@
 import time as t 
 import win32gui, win32ui, win32con
 
+Helloworld = '''Hello World.
+Please wait a few seconds
+. . .
+
+'''
+
 game = True
 loops = 0
-
 
 def main(loops):
     while loops >= 0:
@@ -37,4 +42,10 @@ def main(loops):
 
 
 while game == True:
-    main(loops)
+    try:
+        print(Helloworld)
+        main(loops)
+        
+    except win32ui.error:
+        print('-Please start the game first-')
+        break
